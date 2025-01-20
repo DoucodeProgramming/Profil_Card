@@ -1,0 +1,96 @@
+body {
+  font-family: "Arial", sans-serif;
+  background: linear-gradient(120deg, #f0f0f0, #d9e6f5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+
+.card {
+  background: #fff;
+  border-radius: 12px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  width: 320px;
+  text-align: center;
+  padding: 20px;
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.card:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+img {
+  border-radius: 50%;
+  width: 120px;
+  height: 120px;
+  object-fit: cover;
+  margin-bottom: 15px;
+}
+
+h2 {
+  font-size: 1.5rem;
+  margin: 10px 0;
+  color: #333;
+}
+
+.title {
+  font-size: 1rem;
+  color: #777;
+  margin-bottom: 15px;
+}
+
+p {
+  font-size: 1 rem;
+  color: #555;
+  margin-bottom: 20px;
+}
+
+.socials {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+
+.btn {
+  text-decoration: none;
+  color: #fff;
+  padding: 10px 15px;
+  border-radius: 6px;
+  font-size: 0.9rem;
+  font-weight: bold;
+  transition: background 0.3s, transform 0.3s;
+}
+
+/* Bouton Instagram */
+.btn-ig {
+  background: #e4405f;
+}
+
+.btn-ig:hover {
+  background: #bc2a8d;
+  transform: scale(1.05);
+}
+
+/* Bouton TikTok */
+.btn-tiktok {
+  background: #000000;
+}
+
+.btn-tiktok:hover {
+  background: #333333;
+  transform: scale(1.05);
+}
+
+/* Bouton GitHub */
+.btn-git {
+  background: #4078c0;
+}
+
+.btn-git:hover {
+  background: #0056b3;
+  transform: scale(1.05);
+}
