@@ -39,7 +39,7 @@ git clone https://github.com/DoucodeProgramming/Profil_Card
 ---
 
 ## 🎨 Overview
-![](https://drive.google.com/file/d/1y4Dm5WtW4NNC73qR4fgi4n8Mm_VXyDux/view?usp=drive_link)
+![](https://github.com/DoucodeProgramming/Profil_Card/blob/main/carte%20de%20profil.png)
 
 ---
 
